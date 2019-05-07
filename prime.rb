@@ -5,7 +5,7 @@ def prime?(num)
     num*=-1
   end
   (2..(num-1)).each do |n|
-    if (num%n)==0
+    if (num%n)==0 or num==1
       flag=false
     end
   end
