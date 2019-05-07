@@ -2,7 +2,7 @@
 def prime?(num)
   flag=true
   if num<0
-    tempNum=num*num
+    tempNum=num*-1
   end
   (2..(num-1)).each do |n|
     if (num%n)==0
