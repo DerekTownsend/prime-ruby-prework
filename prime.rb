@@ -6,7 +6,7 @@ def prime?(num)
 
   end
   (2..(num-1)).each do |n|
-    if (num%n)==0 or
+    if (num%n)==0
       flag=false
     end
   end
