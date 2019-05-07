@@ -1,6 +1,9 @@
 # Add  code here!
 def prime?(num)
   flag=true
+  if num<0
+    num*=-1
+  end
   if num==1 or num==0
     flag=false
   end
