@@ -3,7 +3,7 @@ def prime?(num)
   flag=true
 
   (0..(num)).each do |n|
-    if (num%n)==0 or num==1 or num==0
+    if num==0 op (num%n)==0 or num==1
       flag=false
     end
   end
