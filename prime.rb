@@ -1,9 +1,8 @@
 # Add  code here!
 def prime?(num)
   flag=true
-
   (2..(num)).each do |n|
-    if num==0 or (num%n)==0 or num==1
+    if (num%n)==0 or num==1 or num==0
       flag=false
     end
   end
