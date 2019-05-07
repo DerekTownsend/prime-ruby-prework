@@ -6,5 +6,5 @@ def prime?(num)
       flag=false
     end
   end
-
+  return flag
 end
