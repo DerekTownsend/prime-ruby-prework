@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(num)
   flag=true
-  if num==1 or num==-1 or num==0
+  if num==1 or num==0
     flag=false
   end
   (2..(num-1)).each do |n|
